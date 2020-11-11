@@ -1,0 +1,29 @@
+{
+    "name": "bonsaicms/settings-api",
+    "type": "package",
+    "description": "API for bonsaicms/settings package",
+    "keywords": [
+        "API",
+        "settings",
+        "Bonsai CMS",
+        "laravel"
+    ],
+    "license": "MIT",
+    "require": {
+        "php": "^7.3|^8.0",
+        "laravel/framework": "^8.0",
+        "bonsaicms/settings": "^0.1.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "BonsaiCms\\SettingsApi\\": "src/BonsaiCms/SettingsApi/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BonsaiCms\\SettingsApi\\SettingsApiServiceProvider"
+            ]
+        }
+    }
+}
