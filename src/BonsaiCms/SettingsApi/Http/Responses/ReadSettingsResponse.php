@@ -9,6 +9,6 @@ class ReadSettingsResponse implements ReadSettingsResponseContract
 {
     public function toResponse($values)
     {
-        return new JsonResponse($values);
+        return new JsonResponse(count($values) ? $values : null);
     }
 }
