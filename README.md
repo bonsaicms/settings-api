@@ -4,7 +4,7 @@ This package is an API for [bonsaicms/settings](https://github.com/bonsaicms/set
 
 ## Installation
 ```bash2
-$ composer require bonsaicms/settings-API
+$ composer require bonsaicms/settings-api
 ```
 
 ## Publish config
